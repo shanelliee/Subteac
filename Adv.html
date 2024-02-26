@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="icon" type="image/x-icon" href="C:\Users\Rayne Shanelle\Desktop\NAV\logo-removebg-preview.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+header {
+                 background-image: url("fly.gif");
+                 background-repeat: no-repeat;
+                 background-attachment: fixed;
+                 background-size: cover;
+                 color: white;
+                 font-family: monospace;
+                 height: 100%; width: 100%;
+                 text-align: center;
+                 padding: 20px;
+                 }
+header:hover{
+                              background-image: url("run.gif");
+                             font-family: marvel; font-size: 18px
+                             ;}
+ 
+       nav {
+        background-color: #acd8a7;
+        padding: 5px;
+       }
+
+        li a:hover{
+                              background-color:#5bb450;
+                              font-size: 20px;
+                              }
+       ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 10px;
+        background-color:#acd8a7;
+        overflow: hidden;
+       }
+
+       li{
+        float: left;
+        color: white ;
+       }
+
+
+       li a{
+        display: block;
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        text-align: left;
+       }
+
+
+       footer{
+        text-align: center;
+        padding: 10px;
+        background-color: #8bca84;
+        color: white;
+         bottom: 0;
+         left: 0; 
+         position: fixed;
+         width: 100%; height:5%;
+         display: block;
+        }
+
+
+        footer:hover{
+            background-color: #46923c;
+        }
+
+
+             .dropdown{display: inline-block;}
+
+      .ddcontent{
+        display: none;
+        position:fixed;
+    background-color: grey;
+min-width: 10px;      }
+
+
+.dropdown:hover .ddcontent{
+    display: inline;
+}
+
+.container {
+                        background-image: url("jin.gif");
+                        position: absolute; 
+                        width: 60%;
+                        right: 20%;
+                        border-radius: 10px;
+                        }
+
+.image { 
+                 float: left;
+                 width:45%;
+                 border-radius: 20px;
+                 }
+p {
+      text-align:  center;
+      font-family: marvel;
+      font-size: 70px;
+      color: black;
+      }
+
+p:hover {background-color: #46923c;
+                             font-family: marvel; 
+                             font-size: 70px;
+                             color: white;
+                             border-radius: 30px;}
+
+
+.containe {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 50%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+margin: 20%;
+border-radius: 1000px;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.containe:hover .image {
+  opacity: 0.3;
+}
+
+.containe:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #04AA6D;
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+    </style> 
+
+
+</head>
+<style>
+body {
+  background-image: url("BG.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+</style>
+    <header>
+        <h1> ~ EMERALD ~ </h1>
+        By Rayne Shanelle B. Palacio
+    </header>
+   <nav>
+    <ul>
+        <li> <a href="C:\Users\Rayne Shanelle\Desktop\NAV\Home.html">Home</a></li>
+        <li> <a href="C:\Users\Rayne Shanelle\Desktop\NAV\Introd.html"> Introduction</a></li>
+        <li> <a href="C:\Users\Rayne Shanelle\Desktop\NAV\AboutUs.html">About Us </a></li>
+       <li> <a href="C:\Users\Rayne Shanelle\Desktop\NAV\Memo.html"> Memories</a></li>
+
+        <li class="dropdown">
+            <a href="#">Class Information</a>
+
+            <div class="ddcontent">
+                <a href="C:\Users\Rayne Shanelle\Desktop\NAV\Adv.html"> Adviser </a>  
+                <a href="C:\Users\Rayne Shanelle\Desktop\NAV\Coad.html"> Co-Adviser </a>  
+                <a href="C:\Users\Rayne Shanelle\Desktop\NAV\Subtea.html"> Subject Teachers </a> 
+                <a href="C:\Users\Rayne Shanelle\Desktop\NAV\Stu.html"> Students </a>
+                     </div>
+                     </li>
+    </ul>
+   </nav>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="container"
+           style= max-width: 50%; 
+           margin: 15px; 
+           padding: 25px; 
+           background-color: #8bca84;  
+           border-radius: 30px; align:right; ">
+<p>
+ ADVISER: 
+<br> -------> Maribel M. Arcega
+</p>
+</div>
+
+<div class="containe">
+  <img src="MA.jpg" " class="image">
+  <div class="middle">
+<div class="text> ADVISER</div>
+ </div>
+<br>
+    <footer>
+        <h3>All Rights Reserved©
+        </h3>
+</footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
